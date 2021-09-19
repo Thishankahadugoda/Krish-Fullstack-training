@@ -1,0 +1,15 @@
+public class Main {
+
+    public static void main(String[] args) {
+	
+
+        String  sentence = "Welcome to Virtusa";
+        String Reverse = "";
+
+        for (int i = sentence.length() - 1; i >= 0; --i) {
+            Reverse += sentence.charAt(i);
+        }
+        System.out.println(sentence);
+        System.out.println(Reverse);
+          }
+}
